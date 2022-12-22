@@ -32,6 +32,7 @@ const Navbarglobal = () => {
        {
          credData.isAuth?(<Button  variant="dark" onClick={handleLogout}>Logout</Button>):(<Button  variant="dark"><Link href="/loginpage" className={styles.logText}>Login</Link>/<Link href="signup" className={styles.logText}>Signup</Link></Button>)
         }
+        <Link href="/chat"><Button>Chat</Button></Link>
       </Container>
     </Navbar>
     </div>
