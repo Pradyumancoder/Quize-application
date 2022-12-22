@@ -56,7 +56,7 @@ const UserPanel = () => {
       setScore(score - 2);
     }
 
-    document.querySelector(".form").reset();
+    document.querySelector("form").reset();
   };
   if (data.question === undefined) {
     return (

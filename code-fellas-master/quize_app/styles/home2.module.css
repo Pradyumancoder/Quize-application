@@ -4,22 +4,32 @@
 } */
 .home2Box {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  width: 70%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
   margin-top: 10%;
- border: 2px solid white;
 }
 
 .home2SubBox1 {
-  background-color: lightsalmon ;
+  background-color: teal ;
   padding: 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 20px;
+  color: white;
 }
+#userDesc{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid red;
+}
+
 .home2SubBox2 {
   padding: 15px;
-  background-color: lightblue;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background-color: #f69000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: white;
+  border-radius: 20px;
 }
 /* style={{ width: "40%", margin: "auto", textAlign: "start" }} */
 

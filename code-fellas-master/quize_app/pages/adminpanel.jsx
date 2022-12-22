@@ -34,8 +34,8 @@ function AdminPanel() {
   };
   return (
     <Container className={styles.Box}>
-      <h2 >Question Added:<span className={styles.txtSpan}>{noOfques}</span></h2>
-      <Form onSubmit={handleSubmit}>
+      <h3 >Question Added:<span className={styles.txtSpan}>{noOfques}</span></h3>
+      <Form onSubmit={handleSubmit} >
         <Form.Group className={styles.mb-3} controlId="formBasicEmail">
           <Form.Control
             name="question"
@@ -101,7 +101,7 @@ function AdminPanel() {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="dark" type="submit">
           Submit
         </Button>
       </Form>

@@ -10,7 +10,10 @@
   }
   
   .App-link {
-    color: #61dafb;
+    color: teal;
+  }
+  #userDesc{
+    background-color: teal;
   }
   
   @keyframes App-logo-spin {
@@ -27,32 +30,47 @@
     text-align: start;
   }
   .Box {
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;
     background-color: white;
     padding: 20px;
     margin-top: 15px;
-    border-radius: 5px;
+    border-radius: 25px;
+    background-color: teal;
+    color: white;
+    width: 50%;
+  }
+  .Box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   }
   .txtHead {
     padding: 5px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px;
   }
   .usertxtHead {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
   }
   .txtSpan {
     margin-left: 5px;
-    color: green;
+    color: black;
   }
   .userSubBox {
     display: flex;
-    border: 1px solid black;
+    /* border: 2px solid white; */
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(10, 112, 112);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 25px;
+  }
+  .userSubBox:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    background-color:rgb(21, 76, 76);
+    border-radius: 25px;
   }
   .userQueBox{
     padding: 10px;
@@ -64,7 +82,8 @@
     width: 30%;
     text-align: start;
     margin: 5% auto;
-    background-color: white;
+    background-color: teal;
+    color: white;
     padding: 50px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;

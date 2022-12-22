@@ -32,7 +32,7 @@ const router=useRouter()
       </div>
       <div>
        
-          <Button onClick={handleClick} variant="primary">Go to Admin Page</Button>
+          <Button onClick={handleClick} variant="dark">Go to Admin Page</Button>
        
       </div>
     </Stack>
