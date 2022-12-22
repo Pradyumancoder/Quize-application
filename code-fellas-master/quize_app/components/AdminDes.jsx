@@ -13,7 +13,7 @@ const router=useRouter()
   // console.log(credData)
   const handleClick=()=>{
    if(credData.role=="admin"){
-    router.push("/admin")
+    router.push("/adminpanel")
    }else{
     setModalShow(true)
    }

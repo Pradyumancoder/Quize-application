@@ -6,6 +6,8 @@ import Button from "react-bootstrap/esm/Button";
 import Container from "react-bootstrap/esm/Container";
 import Form from "react-bootstrap/Form";
 import Model from "../components/Model";
+import styles from "../styles/app.module.css"
+
 
 const UserPanel = () => {
   const [data, setData] = useState({});
@@ -68,20 +70,20 @@ const UserPanel = () => {
     );
   }
   return (
-    <Container className="Box">
+    <Container className={styles.Box}>
       <div className="usertxtHead txtHead">
         <h5>You can choose single or multiple answers</h5>
         <h2>
           Score:<span className="txtSpan">{score}</span>
         </h2>
       </div>
-      <div className="userQueBox">
+      <div className={styles.userQueBox}>
         <h3>{data.question !== undefined && data.question}</h3>
       </div>
-      <Form className="form" onSubmit={handleSubmit}>
+      <Form className={styles.form} onSubmit={handleSubmit}>
         {data.question !== undefined &&
           [data.opt1, data.opt2, data.opt3, data.opt4].map((type, i) => (
-            <div key={i} className="mb-3 userSubBox">
+            <div key={i} className={styles.userSubBox}>
               <Form.Check
                 type="checkbox"
                 id={type}

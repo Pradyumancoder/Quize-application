@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { AuthContext } from "../context/Auth";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
+import styles from "../styles/app.module.css"
 import { useRouter } from 'next/router'
 
 function Login() {
@@ -48,7 +49,7 @@ function Login() {
     setHide(!hide);
   };
   return (
-    <div className="signupBox">
+    <div className={styles.signupBox}>
       <h3 style={{ textAlign: "center" }}>Login</h3>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-" controlId="formBasicEmail">
@@ -72,12 +73,12 @@ function Login() {
             onChange={handleChange}
             placeholder="Password"
           />
-          <span className="eyeicon" onClick={handleShowPass}>
+          <span className={styles.eyeicon} onClick={handleShowPass}>
             {hide ? <AiFillEye /> : <AiFillEyeInvisible />}
           </span>
         </Form.Group>
         <Form.Group>
-          {error && <span className="warning">Invalid credentials !</span>}
+          {error && <span className={styles.warning}>Invalid credentials !</span>}
         </Form.Group>
         <Button style={{ marginTop: "5px" }} variant="primary" type="submit">
           Submit
