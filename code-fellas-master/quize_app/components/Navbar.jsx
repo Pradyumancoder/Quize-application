@@ -19,15 +19,18 @@ const Navbarglobal = () => {
 
   return (
     <div>
-       <Navbar bg="primary" variant="dark" 
+       <Navbar bg="secondary" variant="dark" 
     className={styles.navbar}
     >
       <Container>
-    <Link href ="/" 
-      className={styles.logText}
-      >Quiz Aplication</Link>
+    <Link href ="/" className={styles.logText}>
+     <div style={{display:"flex", alignItems:"center",gap:"10px" }}>
+     <img src="https://i.postimg.cc/SRfc0876/cropped-blackccg-1-120x130-removebg-preview.png" alt="" width="20%" />
+      <h4>Champions Game</h4>
+     </div>
+      </Link>
        {
-         credData.isAuth?(<Button  variant="secondary" onClick={handleLogout}>Logout</Button>):(<Button  variant="secondary"><Link href="/loginpage" className={styles.logText}>Login</Link>/<Link href="signup" className={styles.logText}>Signup</Link></Button>)
+         credData.isAuth?(<Button  variant="dark" onClick={handleLogout}>Logout</Button>):(<Button  variant="dark"><Link href="/loginpage" className={styles.logText}>Login</Link>/<Link href="signup" className={styles.logText}>Signup</Link></Button>)
         }
       </Container>
     </Navbar>

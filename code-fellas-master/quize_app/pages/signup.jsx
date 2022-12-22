@@ -71,7 +71,7 @@ function Signup() {
         <Form.Group>
           {error && <span className={styles.warning} >user already exists</span>}
         </Form.Group>
-        <Button style={{ marginTop: "5px" }} variant="primary" type="submit">
+        <Button style={{ marginTop: "5px" }} variant="dark" type="submit">
           Submit
         </Button>
       </Form>

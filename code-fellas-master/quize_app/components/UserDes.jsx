@@ -13,7 +13,7 @@ const UserDes = () => {
         <li>For every correct answer, the next question should be at the current level + 1 difficulty.</li>
         <li>For every incorrect answer, the next question should be at the current level - 1 difficulty -1.</li>
     </ul>
-    <Link href='/userpanel'> <Button variant="primary">Play !</Button></Link>
+    <Link href='/userpanel'> <Button variant="dark">Play !</Button></Link>
 </div>
   )
 }
