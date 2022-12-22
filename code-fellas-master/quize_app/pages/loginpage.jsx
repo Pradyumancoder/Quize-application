@@ -34,9 +34,11 @@ function Login() {
         role: data.role,
       });
       if (data.role == "admin") {
-        router.push("/admin")
+        router.push("/adminpanel")
+        console.log(data.role);
       } else if (data.role == "user") {
-        router.push("/user")
+        router.push("/userpanel")
+        console.log(data.role);
       }
     } catch (e) {
       setError(true);

@@ -20,7 +20,7 @@ function Signup() {
     e.preventDefault();
     try {
       const data = await axios.post("https://quiz-applications.vercel.app/signup", cred);
-      router.push("/login")
+      router.push("/loginpage")
     } catch (e) {
       setError(true);
     }
