@@ -4,7 +4,7 @@
  
 This is a mini quiz application. Where you can signup or login as a user or admin. Admin can add qustions in database. User can attend the quiz and Chat to other online user.
 
-Checkout our application here ✌ - [Quiz Application](https://quizapplication-topaz.vercel.app)
+
 
 ## 🔧 Technologies & Tools
 
