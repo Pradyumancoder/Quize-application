@@ -12,10 +12,6 @@ This is a mini quiz application. Where you can signup or login as a user or admi
 
 <hr />
 
-## 🚀 Deployment
-
-Checkout our application here ✌ - [Quiz Application](https://quizapplication-topaz.vercel.app)
-
 ## 🔥 Features
 
 - Homepage - The landing Page
