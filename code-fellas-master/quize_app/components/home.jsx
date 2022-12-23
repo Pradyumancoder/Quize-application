@@ -5,7 +5,7 @@ import styles from "../styles/home2.module.css";
 
 function Home2() {
   return (
-    <div className={styles.home2Box}>
+    <div className={styles.home2Box} >
       <div className={styles.home2SubBox1}>
         <AdminDes />
       </div>
