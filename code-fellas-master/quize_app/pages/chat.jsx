@@ -46,9 +46,11 @@ export default function Home() {
       }
     }
   };
-
+  // style={{ 
+  //   backgroundImage: `url("https://i.postimg.cc/Vs3YLJgj/chatback-transformed.png")`, width:"100%", height:"600px",
+  // }}
   return (
-    <div style={{backgroundColor:"purple", alignItems:"center", justifyContent:"center", textAlign:"center", display:"flex", padding:"30px", height:"700px"}}>
+    <div style={{backgroundColor:"purple", alignItems:"center", justifyContent:"center", textAlign:"center", display:"flex", padding:"30px", height:"700px",backgroundImage: `url("https://i.postimg.cc/CKJs0By0/4076929.png")`, backgroundSize:"cover"}}>
       <main className="gap-4 flex flex-col items-center justify-center w-full h-full">
         {!chosenUsername ? (
           <>
