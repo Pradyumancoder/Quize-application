@@ -23,6 +23,16 @@ This is a mini quiz application. Where you can signup or login as a user or admi
 - Private route
 
 
+
+## Tech Stack
+
+- Nextjs
+- Mongodb
+- Chakra-UI
+- Zwt
+- Bootstrap
+- Web Socket
+
 ### Team Members
 
 - **[Pradyuman Shukla](https://www.linkedin.com/in/pradyuman-shukla/)**
