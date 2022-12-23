@@ -26,11 +26,11 @@ This is a mini quiz application. Where you can signup or login as a user or admi
 
 ## Tech Stack
 
--Nextjs
--Mongodb
--Chakra-UI
--Zwt
--Bootstrap
+- Nextjs
+- Mongodb
+- Chakra-UI
+- Zwt
+- Bootstrap
 
 ### Team Members
 
