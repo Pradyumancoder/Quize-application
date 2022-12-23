@@ -31,6 +31,7 @@ This is a mini quiz application. Where you can signup or login as a user or admi
 - Chakra-UI
 - Zwt
 - Bootstrap
+- Web Socket
 
 ### Team Members
 
