@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@asyncapi/web-component": "^0.24.23",
     "@next/font": "13.0.7",
     "argon2": "^0.30.2",
     "axios": "^1.2.1",
