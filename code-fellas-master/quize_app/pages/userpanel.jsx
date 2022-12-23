@@ -16,6 +16,7 @@ const UserPanel = () => {
   const [count, setCount] = useState(1);
   const [graphData, setGraphData] = useState([]);
   const [modalShow, setModalShow] = useState(false);
+  
   useEffect(() => {
     if (level === 10 || level <= 0 || count >= 10) {
       setModalShow(true);
