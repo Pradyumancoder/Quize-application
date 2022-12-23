@@ -6,6 +6,7 @@ import { AuthContext } from "../context/Auth";
 import ErrorShow from "./ErrorModal";
 import { useRouter } from "next/router";
 import styles from "../styles/app.module.css"
+
 const AdminDes = () => {
 const router=useRouter()
   const {credData}=useContext(AuthContext)

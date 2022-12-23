@@ -36,7 +36,7 @@ function AdminPanel() {
     <Container className={styles.Box}>
       <h3 >Question Added:<span className={styles.txtSpan}>{noOfques}</span></h3>
       <Form onSubmit={handleSubmit} >
-        <Form.Group className={styles.mb-3} controlId="formBasicEmail">
+        <Form.Group className={styles.mb_3} controlId="formBasicEmail">
           <Form.Control
             name="question"
             type="text"
@@ -46,7 +46,7 @@ function AdminPanel() {
           />
         </Form.Group>
 
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             type="text"
             name="correct_ans"
@@ -55,7 +55,7 @@ function AdminPanel() {
             placeholder="Enter correct answer eg. correct1,correct2"
           />
         </Form.Group>
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             type="text"
             name="difficulty"
@@ -64,7 +64,7 @@ function AdminPanel() {
             placeholder="Enter difficulty level range from 1-10"
           />
         </Form.Group>
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             type="text"
             name="opt1"
@@ -73,7 +73,7 @@ function AdminPanel() {
             placeholder="option 1"
           />
         </Form.Group>
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             type="text"
             name="opt2"
@@ -82,7 +82,7 @@ function AdminPanel() {
             placeholder="option 2"
           />
         </Form.Group>
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             type="text"
             name="opt3"
@@ -91,7 +91,7 @@ function AdminPanel() {
             placeholder="option 3"
           />
         </Form.Group>
-        <Form.Group className={styles.mb-3} controlId="formBasicPassword">
+        <Form.Group className={styles.mb_3} controlId="formBasicPassword">
           <Form.Control
             name="opt4"
             type="text"

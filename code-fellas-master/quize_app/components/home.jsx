@@ -1,6 +1,8 @@
 import AdminDes from "./AdminDes";
 import UserDes from "./UserDes";
 import styles from "../styles/home2.module.css";
+
+
 function Home2() {
   return (
     <div className={styles.home2Box}>
