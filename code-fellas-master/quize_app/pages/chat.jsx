@@ -48,7 +48,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex items-center p-4 mx-auto min-h-screen justify-center bg-purple-500">
+    <div style={{backgroundColor:"purple", alignItems:"center", justifyContent:"center", textAlign:"center", display:"flex", padding:"30px", height:"700px"}}>
       <main className="gap-4 flex flex-col items-center justify-center w-full h-full">
         {!chosenUsername ? (
           <>
@@ -59,14 +59,13 @@ export default function Home() {
               type="text"
               placeholder="Identity..."
               value={username}
-              className="p-3 rounded-md outline-none"
+              style={{ padding:"15px 40px", borderRadius:"15px", border:"none",fontSize:"large"}}
               onChange={(e) => setUsername(e.target.value)}
             />
-            <button
+            <button style={{backgroundColor:"teal", padding:"15px 40px", borderRadius:"15px", color:"white", border:"none",fontSize:"large"}}
               onClick={() => {
                 setChosenUsername(username);
               }}
-              className="bg-white rounded-md px-4 py-2 text-xl"
             >
               Go!
             </button>
@@ -76,7 +75,7 @@ export default function Home() {
             <p className="font-bold text-white text-xl">
               Your username: {username}
             </p>
-            <div className="flex flex-col justify-end bg-white h-[20rem] min-w-[33%] rounded-md shadow-md ">
+            <div style={{ padding:"15px 40px", borderRadius:"15px", border:"none",fontSize:"large", backgroundColor:'tomato', color:"white"}}>
               <div className="h-full last:border-b-0 overflow-y-scroll">
                 {messages.map((msg, i) => {
                   return (
@@ -94,13 +93,12 @@ export default function Home() {
                   type="text"
                   placeholder="New message..."
                   value={message}
-                  className="outline-none py-2 px-2 rounded-bl-md flex-1"
+                  style={{ padding:"15px 40px", borderRadius:"15px", border:"none",fontSize:"large" ,marginBottom:"20px"}}
                   onChange={(e) => setMessage(e.target.value)}
                   onKeyUp={handleKeypress}
                 />
                 <div className="border-l border-gray-300 flex justify-center items-center  rounded-br-md group hover:bg-purple-500 transition-all">
-                  <button
-                    className="group-hover:text-white px-3 h-full"
+                  <button style={{backgroundColor:"teal", padding:"10px 30px", borderRadius:"15px", border:"none",fontSize:"large", color:"white"}}
                     onClick={() => {
                       sendMessage();
                     }}

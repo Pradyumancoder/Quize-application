@@ -29,10 +29,10 @@ const Navbarglobal = () => {
       <h4>Champions Game</h4>
      </div>
       </Link>
+      <Link href="/chat"><Button variant="success"><strong>Live Chat</strong></Button></Link>
        {
          credData.isAuth?(<Button  variant="dark" onClick={handleLogout}>Logout</Button>):(<Button  variant="dark"><Link href="/loginpage" className={styles.logText}>Login</Link>/<Link href="signup" className={styles.logText}>Signup</Link></Button>)
         }
-        <Link href="/chat"><Button>Chat</Button></Link>
       </Container>
     </Navbar>
     </div>
