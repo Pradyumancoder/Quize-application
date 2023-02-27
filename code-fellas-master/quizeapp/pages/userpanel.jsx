@@ -2,8 +2,8 @@ import axios from "axios";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import Button from "react-bootstrap/esm/Button";
-import Container from "react-bootstrap/esm/Container";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Model from "../components/Model";
 import styles from "../styles/app.module.css"
